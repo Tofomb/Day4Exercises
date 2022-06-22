@@ -26,6 +26,7 @@ namespace Day4Exercises
             int[] numbers = new int[11] { 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 1764 };
             int[] numbers2 = new int[11] { 1, 2, -8, 77, 11, 5, 1, 88, 0, 10, 1764 };
 
+            //First solution
             rootPrinterParallel(numbers);
             //Calling the same method with 'bad' numbers
             rootPrinterParallel(numbers2);
